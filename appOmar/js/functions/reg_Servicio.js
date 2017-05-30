@@ -94,7 +94,7 @@ $(document).ready(function(){
 
      function crearServicio(){
          if(imagen === null){
-             imagen = "images/servicios/hospital.png";
+             imagen = "images/servicios2.png";
          }
          servicio = new Object();
              servicio.id = $('#txt_ID').val();
@@ -126,7 +126,7 @@ $(document).ready(function(){
         console.log("Imprimiendo" + arrayServicios);
         if(arrayServicios.length <=0 || arrayServicios === null){
              $("#cont_Inicio").replaceWith(
-                "<h2>No hay Servicios Agregados </h2>"
+                "<h2>No hay nada que visualizar </h2>"
             );
             arrayCategorias.splice(0);
             return;
@@ -139,7 +139,7 @@ $(document).ready(function(){
             var collapsible= $('<div data-role="collapsible">');
             collapsible.append('<h2>'+ arrayCategorias[i]+ '</h2>');
                 
-            var list = $('<ul data-role="listview" data-divider-theme="b" data-filter="true" data-filter-placeholder="Buscar Servicios..."   data-split-theme="a" data-inset="true" >');
+            var list = $('<ul data-role="listview" data-divider-theme="b" data-filter="true" data-filter-placeholder="..."   data-split-theme="a" data-inset="true" >');
             list.append('<li data-role="list-divider">Servicios</li>');
                     
             for(var j =0;j <arrayServicios.length; j++){
