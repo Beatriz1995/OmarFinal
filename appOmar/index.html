@@ -18,8 +18,8 @@
       <div data-role="header">
       <div class="ui-btn-left">
             <center>
-                <a href="#pag_AgregarServicio" data-role="button" data-icon="plus">Agregar Servicio</a>
-                <a href="#pag_Acerca" data-role="button" data-icon="info">Acerda de M&iacute;</a>
+                <a href="#pag_AgregarServicio" data-role="button" data-inline="true" data-icon="plus" data-iconpos="notext"></a>
+                <a href="#pag_Acerca" data-role="button" data-icon="info" data-inline="true" data-icon="plus" data-iconpos="notext"></a>
             </center>                  
          </div>
         <h1>Catálogo de Servicios</h1>        
@@ -38,7 +38,7 @@
    <div data-role="navbar">
         <ul>
           <li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
-          <li><a href="#pag_Info" data-role="button" data-icon="info">Info</a></li>
+          <li><a href="#pagInfo" data-role="button" data-icon="info">Info</a></li>
           <li><a href="#pag_AgregarServicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
         </ul>
      </div>
@@ -96,7 +96,7 @@
         <ul>
           <li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
           <li><a href="#pag_Inicio" data-role="button" data-icon="home">Inicio</a></li>
-          <li><a href="#pag_Info" data-role="button" data-icon="info">Info</a></li>
+          <li><a href="#pagInfo" data-role="button" data-icon="info">Info</a></li>
           <li><a href="#pag_InfoServicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
         </ul>
      </div>
@@ -125,7 +125,7 @@
         <ul>
           <li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
       <li><a href="#pag_Inicio" data-role="button" data-icon="home">Inicio</a></li>
-          <li><a href="#pag_Info" data-role="button" data-icon="info">Info</a></li>
+          <li><a href="#pagInfo" data-role="button" data-icon="info">Info</a></li>
           <li><a href="#pag_EditarServicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
         </ul>
      </div>
@@ -174,7 +174,7 @@
         <ul>
           <li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
       <li><a href="#pag_Inicio" data-role="button" data-icon="home">Inicio</a></li>
-          <li><a href="#pag_Info" data-role="button" data-icon="info">Info</a></li>
+          <li><a href="#pagInfo" data-role="button" data-icon="info">Info</a></li>
           <li><a href="#JQueryMobile" data-role="button" data-icon="arrow-r">Siguiente</a></li>
         </ul>
      </div>
@@ -203,24 +203,26 @@
         <ul>
           <li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
           <li><a href="#pag_Inicio" data-role="button" data-icon="home">Inicio</a></li>
-          <li><a href="#pag_Info" data-role="button" data-icon="info">Info</a></li>
+          <li><a href="#pagInfo" data-role="button" data-icon="info">Info</a></li>
           <li><a href="#JQueryMobile" data-role="button" data-icon="arrow-r">Siguiente</a></li>
         </ul>
      </div>
   </div>
 </div>
 <!--Info Dialog-->
-<div data-role="dialog" id="pag_Info" data-theme="e" >
-  <div data-role="header">
-      <h1>Info</h1>
-    </div>
-    <div data-role="content">
-    <p>Query Mobile y PhoneGap, mediante Dreamweaver</p>
-    <p>Omar Octavio Añorve</p>
-    <a href="#pag_Inicio" data-role="button" >Cerrar</a>
-    </div>
-</div>
+<div data-role="dialog" id="pagInfo" data-theme="a">
+<div data-role="header">
+<h1>Información</h1>
+<div data-role="content">
+<p> Omar Añorve 2017</p>
 
+<a href="#" data-rel="back" data-icon="arrow-l">  
+ <center><input type="button" value="Cerrar"/></center>
+ </a>
+
+</div>
+</div>
+</div>
 
 
 
